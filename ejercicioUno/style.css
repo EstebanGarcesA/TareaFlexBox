@@ -1,0 +1,29 @@
+
+body{
+    display: flex;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+.container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column ;
+    
+    
+}
+.item{
+    display: flex;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    background-color : #ddd;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
